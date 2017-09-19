@@ -1,6 +1,10 @@
+//TODO: change twitterApp to app, and maybe clean out comments with extra code
 const express = require('express');
 const twitterApp = express();
 const nunjucks = require( 'nunjucks');
+const routes = require('./routes');
+twitterApp.use('/', routes);
+
 
 // twitterApp.get('/', function(request, response){
 //     response.send('Hello!');
