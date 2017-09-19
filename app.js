@@ -49,7 +49,6 @@ twitterApp.get('/', function(request, response){
     response.render('index',  {locals, newLocals}, function(err, html){
         response.send(html);
     })
-
 	 //can only 
 });
 
