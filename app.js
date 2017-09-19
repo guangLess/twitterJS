@@ -42,8 +42,6 @@ nunjucks.configure('views', {noCache: true});
 // 	console.log(res);
 // });
 twitterApp.get('/', function(request, response){
-	console.log(resquest);
-	console.log(response);
 	response.render('index', {locals, newLocals});
 	 //can only 
 });
